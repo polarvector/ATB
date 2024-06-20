@@ -39,9 +39,19 @@ Say we call a function that's supposed to return the value of a parameter 'No_of
 Example:
 >def spam():\
 >&nbsp;&nbsp;&nbsp;&nbsp;print(no_of_eggs)\
->&nbsp;&nbsp;&nbsp;&nbsp;np_of_eggs = 42\
+>no_of_eggs = 42\
 >spam()\
 >print(no_of_eggs)
+
+**However**, this won't happen if there's an assignment statement within the function
+
+>def spam():\
+>&nbsp;&nbsp;&nbsp;&nbsp;print(no_of_eggs)\
+>&nbsp;&nbsp;&nbsp;&nbsp;no_of_eggs = 42\
+>no_of_eggs = 7\
+>spam()\
+>print(no_of_eggs)
+
 
 #### Remember these above two points
 #### and BTW, local scope is destroyed when execution of a function is complete and global scope destructs when execution of the main program is complete. Meaning each time you access a function, a new local scop is created
