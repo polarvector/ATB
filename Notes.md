@@ -20,7 +20,7 @@ True \
 ### Stacks
 
 | Python           | Microprocessors                                           |
-|------------------|-----------------------------------------------------------|
+|:------------------|:-----------------------------------------------------------|
 | python           | microprocessors                                           |
 | call stack       | stack where value from instruction pointer is pushed      |
 | frame object     | address of the instruction pointer                        |
