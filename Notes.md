@@ -1,6 +1,6 @@
 # Automate the Boring
-Automate the boring /w Py
-**Remember, user inputs are always of data-type str (string)
+Automate the boring /w Py\
+**Remember, user inputs are always of data-type str (string)**
 
 # Functions
 - arguments passed to a local variable (variable within a function) is a parameter
