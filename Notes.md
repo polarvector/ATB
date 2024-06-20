@@ -27,7 +27,11 @@ True \
 
 ### Global and Local scopes (Containers)
 
+The reason Python has different scopes instead of just making everything a global variable is so that when variables are modified by the code in a particular call to a function, the function interacts with the rest of the program only through its parameters and the return value.
+
 Containers are useful because by using function parameters and return values, Python ensures that the only way a function can interact with the rest of the program is by:
 
     Receiving input through its parameters.
     Sending output through its return value.
+
+#### Remember these above two points
