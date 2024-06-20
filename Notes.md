@@ -58,7 +58,7 @@ Example:
 
 ### Exception handling
 
-Code that might give an error during execution for a certain subset of inputs is written within **try** block and the how the anticipated error is to be handled when such subset of inputs find their way in is inside the **except** block
+Code that might give an error during execution for a certain subset of inputs is written within **try** block. How the anticipated error is to be handled when such subset of inputs find their way are in the **except** block
 
 Example:
 
@@ -71,3 +71,5 @@ Example:
 >print(spam(12))\
 >print(spam(0))\
 >print(spam(1))
+
+**Note:** to write this program, we must have previous knowledge that dividing by zero gives ZeroDivisionError
