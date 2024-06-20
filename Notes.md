@@ -1,4 +1,4 @@
-# ATB
+# Automate the Boring
 Automate the boring /w Py
 
 # Functions
@@ -13,5 +13,5 @@ This value-without-a-value can be helpful when you need to store something that 
 >>> spam = print('Hello!')
 Hello!
 >>> None == spam
----
 True
+---
