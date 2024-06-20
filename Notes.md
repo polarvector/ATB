@@ -36,12 +36,12 @@ Containers are useful because by using function parameters and return values, Py
 
 Say we call a function that's supposed to return the value of a parameter 'No_of_eggs' (an argument attached to a local variable, in this case 'no_of_eggs'). Now suppose there's no such local variable but a variable exists with the same name in the global scope. The function will return value of the variable in the global scope.  
 
-Example:\
-def spam():\
->print(no_of_eggs)\
->eggs = 42\
-spam()\
-print(no_of_eggs)
+Example:
+>def spam():
+>    print(no_of_eggs)
+>    eggs = 42
+>spam()
+>print(no_of_eggs)
 
 #### Remember these above two points
 #### and BTW, local scope is destroyed when execution of a function is complete and global scope destructs when execution of the main program is complete. Meaning each time you access a function, a new local scop is created
