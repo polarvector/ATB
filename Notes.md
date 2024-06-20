@@ -43,7 +43,7 @@ Example:
 >spam()\
 >print(no_of_eggs)
 
-**However**, this won't happen if there's an assignment statement within the function
+**However**, this won't happen if there's an assignment statement within the function and will throw a 'variable referenced before assignment' error.
 
 >def spam():\
 >&nbsp;&nbsp;&nbsp;&nbsp;print(no_of_eggs)\
