@@ -25,3 +25,9 @@ True \
 | call stack       | stack where value from instruction pointer is pushed      |
 | frame object     | address of the instruction pointer                        |
 
+### Global and Local scopes (Containers)
+
+Containers are useful because by using function parameters and return values, Python ensures that the only way a function can interact with the rest of the program is by:
+
+    Receiving input through its parameters.
+    Sending output through its return value.
