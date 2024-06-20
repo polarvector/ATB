@@ -62,12 +62,12 @@ Code that might give an error during execution for a certain subset of inputs is
 
 Example:
 
->def spam(divideBy):
->&nbsp;&nbsp;&nbsp;&nbsp;    try:
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        return 42 / divideBy
->&nbsp;&nbsp;&nbsp;&nbsp;    except ZeroDivisionError:
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        print('Error, cannot enter zero')
->print(spam(2))
->print(spam(12))
->print(spam(0))
+>def spam(divideBy):\
+>&nbsp;&nbsp;&nbsp;&nbsp;    try:\
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        return 42 / divideBy\
+>&nbsp;&nbsp;&nbsp;&nbsp;    except ZeroDivisionError:\
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        print('Error, cannot enter zero')\
+>print(spam(2))\
+>print(spam(12))\
+>print(spam(0))\
 >print(spam(1))
