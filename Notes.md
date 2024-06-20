@@ -38,8 +38,8 @@ Say we call a function that's supposed to return the value of a parameter 'No_of
 
 Example:
 >def spam():\
->    print(no_of_eggs)\
->    eggs = 42\
+>&nbsp;print(no_of_eggs)\
+>&nbsp;eggs = 42\
 >spam()\
 >print(no_of_eggs)
 
