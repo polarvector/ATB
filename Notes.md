@@ -38,10 +38,10 @@ Say we call a function that's supposed to return the value of a parameter 'No_of
 
 Example:\
 def spam():\
-    print(no_of_eggs)\
-eggs = 42\
+\t print(no_of_eggs)\
+\t eggs = 42\
 spam()\
-print(no_of_eggs)\
+print(no_of_eggs)
 
 #### Remember these above two points
 #### and BTW, local scope is destroyed when execution of a function is complete and global scope destructs when execution of the main program is complete. Meaning each time you access a function, a new local scop is created
