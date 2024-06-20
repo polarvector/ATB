@@ -10,8 +10,8 @@ In Python, there is a value called None, which represents the absence of a value
 
 This value-without-a-value can be helpful when you need to store something that won’t be confused for a real value in a variable. One place where None is used is as the return value of print(). The print() function displays text on the screen, but it doesn’t need to return anything in the same way len() or input() does. But since all function calls need to evaluate to a return value, print() returns None. To see this in action, enter the following into the interactive shell:
 
-spam = print('Hello!') /
-Hello! /
-None == spam /
-True /
+spam = print('Hello!') \
+Hello! \
+None == spam \
+True \
 ---
