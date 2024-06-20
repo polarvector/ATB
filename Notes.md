@@ -19,7 +19,6 @@ True \
 
 ### Stacks
 
-python | microprocessors
-call stack | stack where value from instruction pointer is pushed
-frame object | address of the instruction pointer
-Stack
+python | microprocessors ---
+call stack | stack where value from instruction pointer is pushed ---
+frame object | address of the instruction pointer ---
