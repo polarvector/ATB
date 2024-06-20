@@ -35,4 +35,4 @@ Containers are useful because by using function parameters and return values, Py
     Sending output through its return value.
 
 #### Remember these above two points
-#### and BTW, local scope is destroyed when execution of a function is complete and global scope destructs when execution of the main program is complete
+#### and BTW, local scope is destroyed when execution of a function is complete and global scope destructs when execution of the main program is complete. Meaning each time you access a function, a new local scop is created
