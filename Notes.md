@@ -39,7 +39,7 @@ Say we call a function that's supposed to return the value of a parameter 'No_of
 Example:
 >def spam():\
 >&nbsp;&nbsp;&nbsp;&nbsp;print(no_of_eggs)\
->&nbsp;&nbsp;&nbsp;&nbsp;eggs = 42\
+>&nbsp;&nbsp;&nbsp;&nbsp;np_of_eggs = 42\
 >spam()\
 >print(no_of_eggs)
 
