@@ -102,3 +102,20 @@ The Distinction:
 |:---------|:------------------------------------------|
 | Method   | value.functionality(some element of value)|
 | Function | function(value)                           |
+
+#### Table of methods for a list
+
+The Distinction:
+| Method     | Example                 |
+|:-----------|:------------------------|
+| index      | spam.index('rat')       |
+| remove     | spam.remove('bat')      |
+| sort       | spam.sort()             |
+|            | spam.sort(reverse=True) |
+|            | spam.sort(str.lower)    |
+| reverse    | spam.reverse()          |
+
+![image](https://github.com/x747/ATB/assets/72918894/f1c64a9c-ec27-4fa0-a211-03f4cfc43bd3)
+
+
+
