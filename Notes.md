@@ -131,4 +131,16 @@ This gives out true if 'nx' is present in our string. It's inverse is **not in**
 ### Tuple
 
 Unlike lists, tuples are **immutable**
+Pass a list as an argument to tuple() to turn it into a tuple. Likewise, do the vice-versa to convert tuple into list and make it mutable 
 
+>myTuple = ('say','my',7,'name')\
+>eggs = (1,) # use trailing comma to specify that it's a tuple you want. Works for int, str, float, etc. all basic data types
+
+### Passing References
+
+in this code:
+>def eggs(someParameter):\
+>&nbsp;&nbsp;&nbsp;&nbsp;someParameter.append('Hello')\
+>spam = [1, 2, 3]\
+>eggs(spam)\
+>print(spam)\
