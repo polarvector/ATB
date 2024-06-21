@@ -99,4 +99,5 @@ Also, each data type has certain methods that come with it.
 
 The Distinction:
 | Method   | value.functionality(some element of value)|
+|:---------|:------------------------------------------|
 | Function | function(value)                           |
