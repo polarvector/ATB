@@ -81,5 +81,22 @@ Tip : Read indexing like this as 'from zeroth element to 3rd from last element'
 Example:
 spam = ['cat', 'bat', 'rat', 'elephant', 'moron', 'dick', 'bastard']
 spam[0:-3]
+
 <u>Output</u> 
 ['cat', 'bat', 'rat', 'elephant']
+
+### Distinction between Method and Functions
+methods are same as functions except that are "called on" values in the following way:
+
+spam.index('rat')
+
+This is distinct from how you would use something like random.shuffle(spam)
+
+In the Method, we're following the value we want to operate on with a dot '.' and writing the function we want to attach to it to get a certain result.
+While in functions, we pass a value to the function as an argument
+
+Also, each data type has certain methods that come with it.
+
+The Distinction:
+|Method| value.functionality(some element of value)|
+|Function| function(value)|
