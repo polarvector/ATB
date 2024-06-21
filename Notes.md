@@ -139,8 +139,14 @@ Pass a list as an argument to tuple() to turn it into a tuple. Likewise, do the 
 ### Passing References
 
 in this code:
+
 >def eggs(someParameter):\
 >&nbsp;&nbsp;&nbsp;&nbsp;someParameter.append('Hello')\
 >spam = [1, 2, 3]\
 >eggs(spam)\
 >print(spam)\
+
+in this example, although spam and someParameter contain separate references (they point to different memory addresses), they both refer to the same list. This is why passing it as an argument to a function and modifying it modifies it while in case of other variables, the modification happens locally within the function only.
+
+#### copy module - helps copies values inside a varible to a separate address without affecting original referencing
+#### a variant deepcopy() copies the inner lists in a list as well
