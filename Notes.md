@@ -98,6 +98,7 @@ While in functions, we pass a value to the function as an argument
 Also, each data type has certain methods that come with it.
 
 The Distinction:
-| Method   | value.functionality(some element of value)|
+| Type     | Way to use                                |
 |:---------|:------------------------------------------|
+| Method   | value.functionality(some element of value)|
 | Function | function(value)                           |
