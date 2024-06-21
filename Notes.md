@@ -121,8 +121,8 @@ The Distinction:
 
 #### handy keywords
 
-name = 'Sphinx'
-'nx' in name 
+>name = 'Sphinx'\
+>'nx' in name 
 
 This gives out true if 'nx' is present in our string. It's inverse is **not in**
 
