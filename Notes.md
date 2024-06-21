@@ -130,4 +130,5 @@ This gives out true if 'nx' is present in our string. It's inverse is **not in**
 
 ### Tuple
 
+Unlike lists, tuples are **immutable**
 
