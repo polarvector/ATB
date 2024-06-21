@@ -74,3 +74,12 @@ Example:
 >print(spam(1))
 
 **Note:** to write this program, we must have previous knowledge that dividing by zero gives ZeroDivisionError
+
+### Lists
+
+Tip : Read indexing like this as 'from zeroth element to 3rd from last element'
+Example:
+spam = ['cat', 'bat', 'rat', 'elephant', 'moron', 'dick', 'bastard']
+spam[0:-3]
+<u>Output</u> 
+['cat', 'bat', 'rat', 'elephant']
