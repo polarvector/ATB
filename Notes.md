@@ -106,16 +106,28 @@ The Distinction:
 #### Table of methods for a list
 
 The Distinction:
-| Method     | Example                 |
-|:-----------|:------------------------|
-| index      | spam.index('rat')       |
-| remove     | spam.remove('bat')      |
-| sort       | spam.sort()             |
-|            | spam.sort(reverse=True) |
-|            | spam.sort(str.lower)    |
-| reverse    | spam.reverse()          |
+| Method     | Example                  |
+|:-----------|:-------------------------|
+| index      | spam.index('rat')        |
+| remove     | spam.remove('bat')       |
+| sort       | spam.sort()              |
+|            | spam.sort(reverse=True)  |
+|            | spam.sort(str.lower)     |
+| reverse    | spam.reverse()           |
+| append     | spam.append()            |
+| insert     | spam.insert(index,'bat') |
 
 ![image](https://github.com/x747/ATB/assets/72918894/f1c64a9c-ec27-4fa0-a211-03f4cfc43bd3)
 
+#### handy keywords
+
+name = 'Sphinx'
+'nx' in name 
+
+This gives out true if 'nx' is present in our string. It's inverse is **not in**
+
+#### Remember, strings are immutable unlike lists. This is meaningful in Passing References apparently. We shall see.
+
+### Tuple
 
 
