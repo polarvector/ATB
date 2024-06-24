@@ -144,7 +144,7 @@ in this code:
 >&nbsp;&nbsp;&nbsp;&nbsp;someParameter.append('Hello')\
 >spam = [1, 2, 3]\
 >eggs(spam)\
->print(spam)\
+>print(spam)
 
 in this example, although spam and someParameter contain separate references (they point to different memory addresses), they both refer to the same list. This is why passing it as an argument to a function and modifying it modifies it while in case of other variables, the modification happens locally within the function only.
 
