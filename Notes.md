@@ -150,3 +150,13 @@ in this example, although spam and someParameter contain separate references (th
 
 #### copy module - helps copies values inside a varible to a separate address without affecting original referencing
 #### a variant deepcopy() copies the inner lists in a list as well
+
+### Dictionaries
+
+Dictonaries aren't ordered. Therefore
+> eggs = {'name': 'Zophie', 'species': 'cat', 'age': '8'}\
+> ham = {'species': 'cat', 'age': '8', 'name': 'Zophie'}\
+> eggs == ham
+returns **TRUE**
+
+They are indexed by their keys. i.e eggs[species] will return 'cat'
