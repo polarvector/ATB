@@ -153,7 +153,7 @@ in this example, although spam and someParameter contain separate references (th
 
 ### Dictionaries
 
-Dictonaries aren't ordered. Therefore
+Dictonaries aren't ordered and indexed like lists or tuples. Therefore
 > eggs = {'name': 'Zophie', 'species': 'cat', 'age': '8'}\
 > ham = {'species': 'cat', 'age': '8', 'name': 'Zophie'}\
 > eggs == ham
@@ -164,3 +164,11 @@ They are indexed by their keys. i.e eggs[species] will return 'cat'
 using checking operators like:
 > if name in birthdays:
 checks if name is a key in the dictionary, not if name is the key-value
+
+#### Comparison table of how lists, tuples & dictionaries differ
+
+| Type  | typed as                  | indexed as [always indexed by big brackets in Python] |
+|:------|:--------------------------|:------------------------------------------------------|
+| List  | list = [1,2,3]            | list[0]                                               |
+| Tuple | tuple = (1,2,3)           | tuple[0]                                              |
+| Dict  | dict = {'1st':1, '2nd':2} | dict['1st']                                           |
