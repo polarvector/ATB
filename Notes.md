@@ -167,7 +167,7 @@ checks if name is a key in the dictionary, not if name is the key-value
 
 #### Comparison table of how lists, tuples & dictionaries differ
 
-| Type  | typed as                  | indexed as [always indexed by big brackets in Python] |
+| Type  | typed as                  | indexed as [Py always uses big brackets for indexing] |
 |:------|:--------------------------|:------------------------------------------------------|
 | List  | list = [1,2,3]            | list[0]                                               |
 | Tuple | tuple = (1,2,3)           | tuple[0]                                              |
