@@ -162,7 +162,7 @@ returns **TRUE**
 They are indexed by their keys. i.e eggs[species] will return 'cat'
 
 using checking operators like:
-> if name in birthdays:
+> if name in birthdays:\
 checks if name is a key in the dictionary, not if name is the key-value
 
 **Methods**
