@@ -166,17 +166,24 @@ using checking operators like:
 checks if name is a key in the dictionary, not if name is the key-value
 
 **Methods**
-eggs.keys() returns keys. **Data type** : **dict_keys** \
-eggs.values() returns values. **Data type** : **dict_values** \
-eggs.items() returns keys and values as a tuple **Data type** : **dict_items**
+>eggs.keys()
+returns keys. **Data type** : **dict_keys**
+
+>eggs.values()
+returns values. **Data type** : **dict_values** 
+
+>eggs.items()
+returns keys and values as a tuple **Data type** : **dict_items**
 
 pass results to a list to obtain one
 
-**get()** method \
-eggs.get('cups',0) checks dictionary keys for 'cup' and returns corresponding value. If the key isn't present, it returns 0 or anything you pass as a 2nd argument
+>**get()** method \
+>eggs.get('cups',0)
+checks dictionary keys for 'cup' and returns corresponding value. If the key isn't present, it returns 0 or anything you pass as a 2nd argument
 
-**setdefault()** method \
-eggs.setdefault('cups','red') checks for the key 'cups' and returns it's corresponding value. However, if the key isn't there it places a value 'red' associated with a new key 'cups' in the dictionary. Useful for on-the-fly addition to a database. **Very cool**
+>**setdefault()** method \
+>eggs.setdefault('cups','red')
+checks for the key 'cups' and returns it's corresponding value. However, if the key isn't there it places a value 'red' associated with a new key 'cups' in the dictionary. Useful for on-the-fly addition to a database. **Very cool**
 
 ### Comparison table of how lists, tuples & dictionaries differ & their main methods
 
