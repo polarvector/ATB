@@ -179,7 +179,7 @@ returns values. **Data type** : **dict_values**
 
 returns keys and values as a tuple **Data type** : **dict_items**
 
-pass results to a list to obtain one
+**NOTE:**pass results to a list to obtain one
 
 **get()** method 
 >eggs.get('cups',0)
