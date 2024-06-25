@@ -166,7 +166,10 @@ using checking operators like:
 
 checks if name is a key in the dictionary, not if name is the key-value
 
-**Methods**
+
+
+#### Methods
+
 >eggs.keys()
 
 returns keys. **Data type** : **dict_keys**
@@ -179,7 +182,7 @@ returns values. **Data type** : **dict_values**
 
 returns keys and values as a tuple **Data type** : **dict_items**
 
-**NOTE:**pass results to a list to obtain one
+**NOTE:** pass results to a list to obtain one
 
 **get()** method 
 >eggs.get('cups',0)
