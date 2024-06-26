@@ -194,6 +194,8 @@ checks dictionary keys for 'cup' and returns corresponding value. If the key isn
 
 checks for the key 'cups' and returns it's corresponding value. However, if the key isn't there it places a value 'red' associated with a new key 'cups' in the dictionary. Useful for on-the-fly addition to a database. **Very cool**
 
+## OMG Dictionaries are fun. In love with them already!
+
 ### Comparison table of how lists, tuples & dictionaries differ & their main methods
 
 | Type  | typed as                  | indexed as [Py always uses big brackets for indexing] |
