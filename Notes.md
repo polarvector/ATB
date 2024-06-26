@@ -1,5 +1,5 @@
 # Automate the Boring
-Automate the boring /w Py
+Automate the boring /w Py \
 **Remember, user inputs are always of data-type str (string)**
 
 # Functions
@@ -14,7 +14,7 @@ This value-without-a-value can be helpful when you need to store something that 
 spam = print('Hello!') \
 Hello! \
 None == spam \
-True \
+True
 
 ---
 
