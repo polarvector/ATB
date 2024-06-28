@@ -204,3 +204,31 @@ checks for the key 'cups' and returns it's corresponding value. However, if the 
 | List  | list = [1,2,3]            | list[0]                                               |
 | Tuple | tuple = (1,2,3)           | tuple[0]                                              |
 | Dict  | dict = {'1st':1, '2nd':2} | dict['1st']                                           |
+
+### Manipulating Strings
+
+## Chapter 6: Manipulating Strings
+
+| **Method**                | **Input**                     | **Output**          | **Usage**                                              |
+|---------------------------|-------------------------------|---------------------|--------------------------------------------------------|
+| `upper()`                 | `'hello'`                     | `'HELLO'`           | Converts a string to uppercase.                        |
+| `lower()`                 | `'HELLO'`                     | `'hello'`           | Converts a string to lowercase.                        |
+| `isupper()`               | `'HELLO'`                     | `True`              | Checks if all characters are uppercase.                |
+| `islower()`               | `'hello'`                     | `True`              | Checks if all characters are lowercase.                |
+| `isalpha()`               | `'Hello'`                     | `True`              | Checks if all characters are letters.                  |
+| `isalnum()`               | `'Hello123'`                  | `True`              | Checks if all characters are alphanumeric.             |
+| `isdecimal()`             | `'12345'`                     | `True`              | Checks if all characters are numbers.                  |
+| `isspace()`               | `'   '`                       | `True`              | Checks if all characters are whitespace.               |
+| `istitle()`               | `'Hello World'`               | `True`              | Checks if string is in title case.                     |
+| `startswith('substring')` | `'Hello World'`               | `True`              | Checks if string starts with 'substring'.              |
+| `endswith('substring')`   | `'Hello World'`               | `True`              | Checks if string ends with 'substring'.                |
+| `join(['list', 'of', 'strings'])` | `['cats', 'rats', 'bats']` | `'cats, rats, bats'` | Joins list of strings with the specified delimiter.    |
+| `split()`                 | `'Hello World'`               | `['Hello', 'World']`| Splits a string into a list of substrings.             |
+| `rjust(width)`            | `'Hello'`                     | `'     Hello'`       | Right justifies a string to a specified width.         |
+| `ljust(width)`            | `'Hello'`                     | `'Hello     '`      | Left justifies a string to a specified width.          |
+| `center(width)`           | `'Hello'`                     | `'  Hello  '`       | Centers a string within a specified width.             |
+| `strip()`                 | `'   Hello   '`               | `'Hello'`           | Removes whitespace from the beginning and end.         |
+| `ord('A')`                | `'A'`                         | `65`                | Returns the Unicode code point of a character.         |
+| `chr(65)`                 | `65`                          | `'A'`               | Returns the character from a Unicode code point.       |
+| `pyperclip.copy('text')`  | `'Hello, world!'`             | (Copies 'Hello, world!' to clipboard) | Copies 'text' to the clipboard.                |
+| `pyperclip.paste()`       | (Clipboard contains `'Hello, world!'`) | `'Hello, world!'`   | Retrieves text from the clipboard.                     |
