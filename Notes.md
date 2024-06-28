@@ -205,9 +205,7 @@ checks for the key 'cups' and returns it's corresponding value. However, if the 
 | Tuple | tuple = (1,2,3)           | tuple[0]                                              |
 | Dict  | dict = {'1st':1, '2nd':2} | dict['1st']                                           |
 
-### Manipulating Strings
-
-## Chapter 6: Manipulating Strings
+## Manipulating Strings
 
 | **Method**                | **Input**                     | **Output**          | **Usage**                                              |
 |---------------------------|-------------------------------|---------------------|--------------------------------------------------------|
