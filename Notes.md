@@ -238,6 +238,9 @@ checks for the key 'cups' and returns it's corresponding value. However, if the 
 #### Methods:
 
 myRegEx = re.compile() -> creates RegEx object. Input RegEx in parentheses
+can also pass re.I as 2nd argument to re.compile for case-insensitivty
+
+
 
 matches = myRegEx.search() -> searches for a match in the input string
 
@@ -264,18 +267,21 @@ Can also include ranges of letters or numbers by using a hyphen. For example, th
 
 #### Regex Symbols Summary
 
-    The ? matches zero or one of the preceding group.
-    The * matches zero or more of the preceding group.
-    The + matches one or more of the preceding group.
-    The {n} matches exactly n of the preceding group.
-    The {n,} matches n or more of the preceding group.
-    The {,m} matches 0 to m of the preceding group.
-    The {n,m} matches at least n and at most m of the preceding group.
+    ? matches zero or one of the preceding group.
+    * matches zero or more of the preceding group.
+    + matches one or more of the preceding group.
+    {n} matches exactly n of the preceding group.
+    {n,} matches n or more of the preceding group.
+    {,m} matches 0 to m of the preceding group.
+    {n,m} matches at least n and at most m of the preceding group.
     {n,m}? or *? or +? performs a non-greedy match of the preceding group.
     ^spam means the string must begin with spam.
     spam$ means the string must end with spam.
-    The . matches any character, except newline characters.
+    . matches any character. More dots = more characters, except newline characters.
     \d, \w, and \s match a digit, word, or space character, respectively.
     \D, \W, and \S match anything except a digit, word, or space character, respectively.
     [abc] matches any character between the brackets (such as a, b, or c).
     [^abc] matches any character that isn’t between the brackets.
+
+
+
