@@ -243,3 +243,14 @@ matches = myRegEx.search() -> searches for a match in the input string
 
 matches.group(1) -> if RegEx has multiple groups, returns results categorically
 
+myRegEx.findall() -> finds all occurences of the input string
+
+#### Character Classes
+
+| Character Class | Represents|
+| '\d'            | ''          |
+| '\D'            |           |
+| '\w'            |           |
+| '\W'            |           |
+| '\s'            |           |
+| '\S'            |           |
