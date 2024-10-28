@@ -230,3 +230,16 @@ checks for the key 'cups' and returns it's corresponding value. However, if the 
 | `chr(65)`                 | `65`                          | `'A'`               | Returns the character from a Unicode code point.       |
 | `pyperclip.copy('text')`  | `'Hello, world!'`             | (Copies 'Hello, world!' to clipboard) | Copies 'text' to the clipboard.                |
 | `pyperclip.paste()`       | (Clipboard contains `'Hello, world!'`) | `'Hello, world!'`   | Retrieves text from the clipboard.                     |
+
+## Regular Expressions a.k.a. RegEx
+
+>> import re #expression to import regular expressions module
+
+#### Methods:
+
+myRegEx = re.compile() -> creates RegEx object. Input RegEx in parentheses
+
+matches = myRegEx.search() -> searches for a match in the input string
+
+matches.group(1) -> if RegEx has multiple groups, returns results categorically
+
