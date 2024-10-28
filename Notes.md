@@ -247,11 +247,17 @@ myRegEx.findall() -> finds all occurences of the input string
 
 #### Character Classes
 
-| Character Class | Represents                          |
-|:----------------|:------------------------------------|
-| `\d`            |Any numeric digit from 0 to 9.       |
-| `\D`            |Any numeric digit from 0 to 9.       |
-| `\w`            |Any letter, numeric digit, or the underscore character. (Think of this as matching “word” characters.)    |
-| `\W`            |Any character that is not a letter, numeric digit, or the underscore character.      |
-| `\s`            |Any space, tab, or newline character. (Think of this as matching “space” characters.)     |
-| `\S`            |Any character that is not a space, tab, or newline.     |
+| **Character Class** | **Represents**                          |
+|:--------------------|:----------------------------------------|
+| `\d`                |Any numeric digit from 0 to 9.           |
+| `\D`                |Any numeric digit from 0 to 9.           |
+| `\w`                |Any letter, numeric digit, or the underscore character. (Think of this as matching “word” characters.)    |
+| `\W`                |Any character that is not a letter, numeric digit, or the underscore character.      |
+| `\s`                |Any space, tab, or newline character. (Think of this as matching “space” characters.)     |
+| `\S`                |Any character that is not a space, tab, or newline.     |
+|custom `[chars_here]`|[aeoAEO] or [a-zA-Z0-9]                  |
+Custom **Character Classes**
+>> specific_vowel_regex = re.compile(r'[aeouAEOU]')
+this code matches any lower or uppercase vowels
+
+Can also include ranges of letters or numbers by using a hyphen. For example, the character class [a-zA-Z0-9] will match all lowercase letters, uppercase letters, and numbers.
